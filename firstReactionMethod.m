@@ -43,12 +43,8 @@ function [ t, x ] = firstReactionMethod( stoich_matrix, propensity_fcn, tspan, x
 %       Gillespie, D.T. (1977) Exact Stochastic Simulation of Coupled
 %       Chemical Reactions. J Phys Chem, 81:25, 2340-2361.
 %
-%   See also DIRECTMETHOD
 
-%   Nezar Abdennur, 2012 <nabdennur@gmail.com>
-%   Dynamical Systems Biology Laboratory, University of Ottawa
-%   www.sysbiolab.uottawa.ca
-%   Created: 2012-01-19
+
 
 if ~exist('MAX_OUTPUT_LENGTH','var')
     MAX_OUTPUT_LENGTH = 1000000;
